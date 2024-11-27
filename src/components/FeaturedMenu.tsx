@@ -1,22 +1,6 @@
 import { Card } from "./ui/card";
 
-const MENU_ITEMS = [
-  {
-    name: "Taco al Pastor",
-    description: "Cerdo marinado con piña y especias",
-    price: "$25",
-  },
-  {
-    name: "Taco de Birria",
-    description: "Res guisada en caldillo de chiles",
-    price: "$30",
-  },
-  {
-    name: "Taco de Pescado",
-    description: "Pescado fresco estilo Baja",
-    price: "$28",
-  },
-];
+const MENU_ITEMS: any[] = [];
 
 export const FeaturedMenu = () => {
   return (

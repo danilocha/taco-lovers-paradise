@@ -1,6 +1,10 @@
 import { Button } from "./ui/button";
 
 export const Hero = () => {
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/573108637981", "_blank");
+  };
+
   return (
     <div className="relative min-h-[80vh] flex items-center justify-center bg-primary">
       <div className="absolute inset-0 bg-[url('/lovable-uploads/c312d14f-d2dc-4cde-a775-6719aa44a921.png')] bg-center bg-no-repeat opacity-10" />
@@ -16,7 +20,11 @@ export const Hero = () => {
         <p className="text-xl md:text-2xl text-white/90 mb-8">
           Sabor auténtico mexicano hasta la puerta de tu casa
         </p>
-        <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-white">
+        <Button 
+          size="lg" 
+          className="bg-secondary hover:bg-secondary/90 text-white"
+          onClick={handleWhatsAppClick}
+        >
           Ordena Ahora
         </Button>
       </div>
