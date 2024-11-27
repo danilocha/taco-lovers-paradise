@@ -7,9 +7,9 @@ export const About = () => {
             Nuestra Historia
           </h2>
           <p className="text-lg text-gray-700 mb-8">
-            Desde 2015, Qué Tacazo ha estado sirviendo auténtica comida mexicana con el
-            mejor sabor y calidad. Nuestras recetas han pasado de generación en
-            generación, manteniendo viva la tradición de la verdadera cocina mexicana.
+            En ¡Que Tacazo! preparamos los tacos más sabrosos y auténticos de la ciudad. 
+            Con ingredientes frescos y recetas tradicionales, te ofrecemos una experiencia 
+            única para disfrutar de la auténtica comida mexicana. ¡Ven a probar nuestros tacos!
           </p>
           <div className="flex justify-center space-x-8">
             <div>

@@ -24,8 +24,7 @@ export const Contact = () => {
             </div>
             <div>
               <h3 className="text-xl font-bold text-secondary mb-4">Horario</h3>
-              <p className="text-gray-600 mb-2">Lunes a Sábado: 11:00 - 22:00</p>
-              <p className="text-gray-600 mb-4">Domingo: 12:00 - 20:00</p>
+              <p className="text-gray-600 mb-4">Sábados: 11:00 - 20:00</p>
               <Button 
                 className="w-full bg-secondary hover:bg-secondary/90"
                 onClick={handleWhatsAppClick}
